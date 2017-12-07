@@ -1,0 +1,48 @@
+{% extends 'modules.html' %}
+{% block title %}
+    	SCHEDULE - {{ block.super }}
+{% endblock title %}
+
+{% block module %}
+	<h2>SCHEDULE</h2>
+	<div id="Div1" name="Div1" class="Div" title="Div Element 1">
+		</br>
+		<h3>Welcome to the Schedule! Below is information on the schedule for this semester. If you have any questions about any of this information, please contact either Dr. Ferrar or members of the TA team.</h3> 
+		<h4>NOTE: ALL INFO FOUND ON THE CONTACTS PAGE</h4>
+		<table style="width:50%">
+ 			<tr>
+    				<th>Week Number</th>
+    				<th>Assignment Information</th> 
+  			</tr>
+  			<tr>
+    				<td>1</td>
+    				<td>Assignment 1: Javascript</td>
+  			</tr>
+  			<tr>
+    				<td>2</td>
+    				<td>Assignment 2: Lynda</td>
+  			</tr>
+  			<tr>
+    				<td>3</td>
+    				<td>Assignment 3: HTML and CSS</td>
+  			</tr>
+			<tr>
+    				<td>4</td>
+    				<td>Assignment 4: Python</td>
+  			</tr>
+			<tr>
+    				<td>5</td>
+    				<td>Assignment 5: Final App Project</td>
+  			</tr>
+
+		</table>
+		</br>
+	</div>
+	</br>
+	<div id="Div1" name="Div1" title="Div Element 1" style="color: rgb(255, 255, 255);">
+		<form>
+    			<input class="buttoncss3" type="button" value="<< PREVIOUS: PYTHON" onclick="window.location.href='/python'" />
+			<input class="buttoncss3" type="button" value="NEXT: CORE SKILL DEMO>>" onclick="window.location.href='/coreskilldemo'" />
+		</form>
+	</div>
+{% endblock module %}

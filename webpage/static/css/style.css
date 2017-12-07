@@ -1,0 +1,163 @@
+body{
+	background-image: url(../images/redgrad.jpg);
+}
+
+h1{
+    	color: rgb(255, 255, 255);
+	text-align: center;
+}
+
+h2{
+    	color: rgb(255, 255, 255);
+	text-align: center;
+}
+
+h3{
+	font-family: "Arial", Arial, sans-serif;
+	font-size: 125%;
+	margin: 10px;
+}
+
+h4{
+	font-style: italic;
+	font-family: "Arial", Arial, sans-serif;
+	font-size: 100%;
+	background-color: white;
+	color: red;
+	text-decoration: underline;
+	margin: 10px;
+}
+
+h6{
+	margin: 10px;
+	color: Yellow;
+	font-size: 150%;
+	font-family: "Arial", Arial, sans-serif;
+	text-decoration: underline;
+	font-style: italic;
+}
+
+h7{
+	margin: 10px;
+	font-size: 175%;
+	font-family: "Arial", Arial, sans-serif;
+	text-align: center;
+}
+
+p{
+	color: rgb(255, 255, 255);
+}
+
+form{
+	text-align: center;
+}
+
+.buttoncss0{
+	width: 450px; 
+	padding: 20px; 
+	cursor: pointer; 
+	font-weight: bold; 
+	background: rgb(255, 255, 255); 
+	color: rgb(255, 0, 0); 
+	border-radius: 5px; 
+	border: 1px solid white; 
+	font-size: 150%;
+}
+
+.buttoncss0:hover{
+	background-color: red;
+	color: white;
+}
+
+.buttoncss1{
+	width: 300px; 
+	padding: 20px; 
+	cursor: pointer; 
+	font-weight: bold; 
+	background: rgb(255, 255, 255); 
+	color: rgb(255, 0, 0); 
+	border-radius: 5px; 
+	border: 1px solid white; 
+	font-size: 150%;
+}
+
+.buttoncss1:hover{
+	background-color: red;
+	color: white;
+}
+
+.buttoncss1after{
+	width: 300px; 
+	padding: 20px; 
+	cursor: pointer; 
+	font-weight: bold; 
+	background: red; 
+	color: white; 
+	border-radius: 5px;
+	font-size: 150%;
+}
+
+.buttoncss3{
+	width: 500px; 
+	padding: 20px; 
+	cursor: pointer; 
+	font-weight: bold; 
+	background: rgb(255, 255, 255); 
+	color: rgb(255, 0, 0); 
+	border-radius: 5px; 
+	border: 1px solid white; 
+	font-size: 150%;
+}
+
+.buttoncss3:hover{
+	background-color: red;
+	color: white;
+}
+
+.buttoncss2{
+	margin: 10px;
+	width: 750px; 
+	padding: 20px; 
+	cursor: pointer; 
+	font-weight: bold; 
+	background: rgb(255, 255, 255); 
+	color: rgb(255, 0, 0); 
+	border-radius: 5px; 
+	border: 1px solid white; 
+	font-size: 150%;
+}
+
+.buttoncss2:hover{
+	background-color: red;
+	color: white;
+}
+
+table, th, td{
+	border-collapse: collapse;
+	text-align: center;
+	font-family: "Arial", Arial, sans-serif;
+}
+
+th, td{
+	border: 1px solid white;
+	border-collapse: collapse;
+	text-align: center;
+	font-family: "Arial", Arial, sans-serif;
+}
+
+th{
+	font-size: 150%;
+}
+
+table{
+	margin: auto;
+	border: 3px solid white;
+}
+
+.Div{
+	background-color: rgba(255, 255, 255, .2);
+	width: 80%;
+	color: rgb(255, 255, 255);
+	margin:0 auto;
+	border-radius: 5px;
+}

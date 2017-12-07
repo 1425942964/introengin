@@ -1,0 +1,29 @@
+{% extends 'modules.html' %}
+{% block title %}
+    	CORE SKILLS DEMO - {{ block.super }}
+{% endblock title %}
+
+{% block module %}
+	<h2>CORE SKILLS DEMO</h2>
+	<div id="Div1" name="Div1" class="Div" title="Div Element 1">
+		<form>
+    			<input class="buttoncss2" type="button" value="CORE PROGRAMMING SKILLS DEMO" onclick="window.open('http://hr.gs/pymods1_10')">
+		</form>
+		<h6>
+			Password: doThisDemo
+		</h6>
+		<h3>
+			HackerRank is a learning environment in which you type code directly into your web browser. Each coding challenge consists of: Specified Text Input, Your Code and Specified Text Output. Your code must take the Text Input as input, perform the tasks given in the problem statement, and produce the Text Output. If your output matches the specified output, your code passes the test.
+		</h3>
+		<h4>
+			NOTE: Keep in mind that we will be evaluating your code using secret input, so you can't simply write a code that prints the desired output. For example, imagine a task such as to writing a code that takes two numbers as input, multiplies them, and prints the result. We will use secret numbers to test that your code actually performs the math correctly. You'll be able to test your code with several relevant test cases before submitting. If your code passes these tests, you can be confident that you solved the problem correctly. For full credit, don't submit until your code passes all of the test cases.
+		</h4>
+		</br>
+	</div>
+	</br>
+	<div id="Div1" name="Div1" title="Div Element 1" style="color: rgb(255, 255, 255);">
+		<form>
+    			<input  class="buttoncss3" type="button" value="<< PREVIOUS: SCHEDULE" onclick="window.location.href='/schedule'" />
+			<input  class="buttoncss3" type="button" value="NEXT: NEW >>" onclick="window.location.href='/new'" />
+		</form>
+{% endblock module %}

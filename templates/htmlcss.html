@@ -1,0 +1,37 @@
+{% extends 'modules.html' %}
+{% block title %}
+    	HTMLCSS - {{ block.super }}
+{% endblock title %}
+
+{% block module %}
+    <h1>SELECT MODULE BELOW</h1>
+	<div id="Div" name="Div" title="Div Element " style="color: rgb(255, 255, 255);">
+	</div>
+	<h2>PAGE FOR HTML AND CSS STUFF</h2>
+	<div id="Div1" name="Div1" title="Div Element 1" style="color: rgb(255, 255, 255); border: 1px solid white;">
+       	<form>
+    		<input class="buttoncss2" type="button" value="CODECADEMY HTML" onclick="window.open('https://www.codecademy.com/learn/learn-html')">
+			<input class="buttoncss2" type="button" value="CODECADEMY CSS" onclick="window.open('https://www.codecademy.com/learn/learn-css')">
+		</form>
+       	<h3>
+			Unfamiliar with the basics of HTML and CSS?
+			Check out the links above to get a better understanding of what HTML and CSS are all about! As a first experience in coding, we're going to learn the basics of HTML and CSS. 
+			These are the two languages used to create webpages. Whether you're a pro, or you've never coded before, this is a great place to jump in and actually do coding! 
+			As an added bonus, you don't need install anything on your computer to get started.
+			Why HTML/CSS?
+			Because webpages aren't actually programs. 
+			You'll be learning the basic idea of how we give a computer commands - how we teach a computer to do things without the added complexity of creating a full program.
+			What should you take away from this?
+		</h3>
+		<h4>
+			NOTE: Codecademy offers paid upgrades that include quizzes and projects. You are NOT required to pay for the upgraded access or complete these activities.
+		</h4>
+		</br>
+	</div>	
+	</br>
+	<div id="Div1" name="Div1" title="Div Element 1" style="color: rgb(255, 255, 255);">
+		<form>
+    			<input class="buttoncss3" type="button" value="NEXT: JAVASCRIPT >>" onclick="window.location.href='/javascript'" />
+		</form>
+	</div>
+{% endblock module %}
